@@ -7,7 +7,7 @@ export default function Form() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    navigate('/results',{ state: { query: inputVal } });
+    navigate('/react-routing-navigation/results',{ state: { query: inputVal } });
   } 
   return (
     <div>
