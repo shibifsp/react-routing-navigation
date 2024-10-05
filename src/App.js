@@ -9,8 +9,8 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path='/results' element={<Results/>} />
-        <Route path='/' element={<Form />} />
+        <Route path='/react-routing-navigation/results' element={<Results/>} />
+        <Route path='/react-routing-navigation/' element={<Form />} />
       </Routes>
       
     </div>
